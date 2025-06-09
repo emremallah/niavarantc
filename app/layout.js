@@ -1,8 +1,6 @@
 import "./globals.css";
 import { Geist, Geist_Mono } from "next/font/google";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import CallFloatingButton from "@/components/CallFloatingButton";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,11 +45,9 @@ export const metadata = {
     "آموزش حسابداری با نرم‌افزار",
     "آموزش حسابداری با اکسل", 
   ],
-  authors: [{ name: "Niavaran Technical Academy" }],
   icons: {
     icon: "/favicon.ico",
   },
-  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({ children }) {
